@@ -1,0 +1,100 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    gap:0px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background-color: seagreen;
+    background: url('bg3.avif') no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+#main{
+    width:420px;
+    background-color: transparent;
+    border:2px solid rgba(255,255,255,0.3) ;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    backdrop-filter: blur(20px);
+    color:white;
+    border:none;
+    outline:none;
+    border-radius:10px;
+    padding:30px 40px;
+}
+h1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+ } 
+.login{
+    width:100%;
+    height:50px;
+    margin:30px 0;          
+}
+.login input{
+    width:100%; 
+    height:100%;
+    background:transparent; 
+    border:none;
+    outline:none;
+     border:2px solid rgba(255,255,255,0.2);
+    border-radius:30px;
+    font-size:16px;
+    color:white;
+    padding:20px 45px 20px 20px;
+    box-sizing: border-box;
+}
+.login input::placeholder{
+    color:white;
+}
+.rem{
+    display:flex;
+    justify-content: space-between;
+    color:white;
+    font-size: 15px;
+    margin:-15px 0px 15px 0px;
+}
+.rem label input{
+    accent-color: #FFF;
+    margin:3px;
+}
+.rem a{
+    color:white;
+    text-decoration: none;
+}
+.rem a:hover{
+    text-decoration: underline;
+}
+.btn{
+    width:100%;
+    height:50px;
+    border:none;
+    outline:none;
+    border:2px solid white;
+    border-radius:40px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    color:black;
+    font-weight: 600;
+    font-size:16px;
+    cursor: pointer;
+    /* background-color: transparent; */
+}
+.register{
+    display:flex;
+    justify-content: center;
+    margin:20px 0px 20px 0px;
+    font-size:22px;
+}
+.register  a{
+    color:white;
+    text-decoration: none;
+    font-weight:600;
+}
+.register  a:hover{
+    text-decoration: underline;
+}
